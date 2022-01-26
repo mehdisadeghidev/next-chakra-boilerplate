@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "next",
+    "airbnb",
+    "airbnb-typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "func-names": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/href-no-hash": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
+    "@next/next/no-img-element": "off",
+    "indent": [
+      "error",
+      2
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "max-len": "off",
+    "react-hooks/exhaustive-deps": "off"
+  }
+}
